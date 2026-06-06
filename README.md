@@ -3,54 +3,40 @@
 
 ![TypeTally social preview](assets/social-preview.png)
 
-TypeTally is a lightweight Windows desktop app that counts files in any folder and shows a clean breakdown by file type.
+TypeTally is a Windows desktop app that scans a folder and shows how many files it contains, with a clear breakdown by file type.
 
-It is designed for people who need a fast answer to questions like:
+It is useful when you want quick answers to questions like:
 
 - How many PDFs are in this folder?
-- How many different file types are mixed into this download?
-- What is actually inside this shared archive or classwork folder?
+- What file types are mixed into this download?
+- What is actually inside this shared folder before I sort it manually?
 
-## Why people may want it
+## What it does
 
-- Instant folder analysis
-- Clear file-type breakdown
-- Works with or without subfolders
-- Single-window desktop app
-- No terminal window
-- Portable standalone `.exe`
+- Counts files in a selected folder
+- Groups results by extension such as `.pdf`, `.docx`, `.jpg`, and `.zip`
+- Optionally includes files from subfolders
+- Shows the results in a simple desktop interface
 
 ## Download
 
-For a simple direct download from the repository:
-
 - [`release/TypeTally-Windows-x64.zip`](release/TypeTally-Windows-x64.zip)
-
-Recommended setup:
 
 1. Open the latest GitHub Release
 2. Download `TypeTally-Windows-x64.zip`
 3. Extract it
 4. Run `TypeTally.exe`
 
-## Features
+## Use cases
 
-- Count all files in a folder
-- Optionally include subfolders
-- Group results by extension such as `.pdf`, `.docx`, `.jpg`, and `.zip`
-- Clean English interface for sharing publicly
-- Custom app icon and GitHub-ready branding
+- Checking student submission folders before review
+- Looking through large download folders with mixed file types
+- Inspecting shared work folders before cleanup or archiving
+- Getting a quick inventory of documents, images, and other files without using the command line
 
-## Best for
+## Privacy note
 
-- Students organizing submissions
-- Teachers checking mixed upload folders
-- Office users sorting shared downloads
-- Anyone who wants a fast file inventory without opening a terminal
-
-## Screenshots and branding
-
-The repository uses a privacy-safe demo path in its visuals:
+The preview images in this repository use a privacy-safe demo path:
 
 - `D:\Downloads\Sample_Folder`
 
@@ -70,21 +56,13 @@ Install PyInstaller:
 python -m pip install --user pyinstaller
 ```
 
-Build the app:
+Then build the app:
 
 ```powershell
 ./build.ps1
 ```
 
 The built executable is created in `release-build/`.
-
-## Repository suggestions
-
-To help the project get more attention on GitHub, set these when creating the repo:
-
-- Description: `A tiny Windows app that counts files and shows a clean file-type breakdown.`
-- Topics: `windows`, `desktop-app`, `python`, `tkinter`, `file-manager`, `productivity`, `folder-analysis`, `utility`
-- Social preview: `assets/social-preview.png`
 
 ## License
 
