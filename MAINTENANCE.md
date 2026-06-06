@@ -28,7 +28,7 @@ The rebuilt executable will be written to:
 
 - `release-build/TypeTally.exe`
 
-After checking it works, copy the final deliverable into:
+After checking it works, copy the final deliverables into:
 
 - `release/TypeTally.exe`
 - `release/TypeTally-Windows-x64.zip`
@@ -38,6 +38,7 @@ After checking it works, copy the final deliverable into:
 ```powershell
 git status
 ./build.ps1
+Copy-Item .\release-build\TypeTally.exe .\release\TypeTally.exe -Force
 Compress-Archive -Path .\release\TypeTally.exe -DestinationPath .\release\TypeTally-Windows-x64.zip -Force
 git add .
 git commit -m "Describe the update"

@@ -1,4 +1,5 @@
 # TypeTally
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ![TypeTally social preview](assets/social-preview.png)
 
@@ -21,11 +22,11 @@ It is designed for people who need a fast answer to questions like:
 
 ## Download
 
-If you are browsing the repository directly, use the packaged Windows build here:
+For a simple direct download from the repository:
 
 - [`release/TypeTally-Windows-x64.zip`](release/TypeTally-Windows-x64.zip)
 
-After the GitHub repository is created, the recommended setup is:
+Recommended setup:
 
 1. Open the latest GitHub Release
 2. Download `TypeTally-Windows-x64.zip`
@@ -39,6 +40,13 @@ After the GitHub repository is created, the recommended setup is:
 - Group results by extension such as `.pdf`, `.docx`, `.jpg`, and `.zip`
 - Clean English interface for sharing publicly
 - Custom app icon and GitHub-ready branding
+
+## Best for
+
+- Students organizing submissions
+- Teachers checking mixed upload folders
+- Office users sorting shared downloads
+- Anyone who wants a fast file inventory without opening a terminal
 
 ## Screenshots and branding
 
@@ -68,7 +76,7 @@ Build the app:
 ./build.ps1
 ```
 
-The packaged executable will be created in `release-build/`.
+The built executable is created in `release-build/`.
 
 ## Repository suggestions
 
