@@ -20,7 +20,7 @@ It is useful when you want quick answers to questions like:
 
 ## Download
 
-- Download the latest build from the GitHub Releases page.
+- Download the latest build from [GitHub Releases](https://github.com/HYWLab/TypeTally/releases/latest).
 - Direct package in this repository: [`release/TypeTally-Windows-x64.zip`](release/TypeTally-Windows-x64.zip)
 
 1. Open the latest GitHub Release
